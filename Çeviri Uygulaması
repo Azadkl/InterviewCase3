@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class CeviriUygulamasi {
+    public static void main(String[] args) {
+        //Kullanıcıdan kelime alıyorum
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Kelimeyi girin:");
+        String kelime = scanner.nextLine();
+
+        //Girilen kelimenin dilini istiyorum
+        System.out.println("Girilen dil:");
+        String mevcutDil = scanner.nextLine();
+
+        //cevirilmesi istenilen dil
+        System.out.println("Istenilen dil:");
+        String yeniDil = scanner.nextLine();
+
+        //Cevirinin sonucunu yazdır
+        //...
+
+    }
+}
